@@ -1,0 +1,25 @@
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+Pros of manually creating commit: You can save when you have made significant
+changes and differences between two versions. 
+Cons of manually creating commit: Sometimes you will not commit for a long time
+because you can be wreckless or you don't remember
+Pros of automatic save: Creates a lot of saves that you may not have made which
+can be helpful. If you are forgetful withs avig this can help
+Cons of automatic save: Can create too many versions that arent useful
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+Git allows for saving multiple files in one commit because the files are interrelated which each other
+whereas the files in a google doc are less interrelated. This means that changing something in one file will have an effect
+on another file too thus it is important to keep track of all files that are associated wtih each other to notice how one change in one file
+may affect other files. If you dould only save each file seperately then there will be many versions of each file that don't line up in teh same
+commit time frame as the others wthis overcomplicates analyzing differences between versions of files.
+
+Use git clone URL
+then cd to the folder with the repository
+then git log
+then lookat the commit ID
+then git diff between commit ID of interest
+note the differences usign the color labelled text
+
+IF you have our previous versions commited then you can experiement and add potentailly app breaking code because you have a previous owrking version. So even if your new experimetal version crashes you can go back to your working version without worrying about jepordizing your entire project while experimetning. 

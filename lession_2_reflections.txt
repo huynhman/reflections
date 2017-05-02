@@ -1,0 +1,6 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+It creates a .git file in the folder. This .git folder is data for the repository
+in other words the .git folder contains hsitory data of all of your files (commits)
+in the folder. THis is essential in keeping track of the different versions
+of your files over time. 
