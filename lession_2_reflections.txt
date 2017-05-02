@@ -4,3 +4,9 @@ It creates a .git file in the folder. This .git folder is data for the repositor
 in other words the .git folder contains hsitory data of all of your files (commits)
 in the folder. THis is essential in keeping track of the different versions
 of your files over time. 
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+Staging area is between the workign directory and repository. Working directory is located on your hard drive
+and the repository is the data history of the filessssss. Staging area may be useful beacuse
+it ensures the suer knows exactly what he coomits to the repositroy before doign so. 
